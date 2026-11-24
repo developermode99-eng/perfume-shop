@@ -25,7 +25,7 @@
       "subtitle": "Warm oud with a golden finish",
       "tag": "SAMPLE PRODUCT",
       "id": "1",
-      "image": "/images/products/cover.jpeg",
+      "image": "images/products/cover.jpeg",
       "description": "Demo copy: a warm, softly smoky oud fragrance with a gentle amber finish. Replace this text with the real scent description before launch."
     },
     {
@@ -53,7 +53,7 @@
       "subtitle": "Concentrated jasmine in a travel size",
       "tag": "SAMPLE PRODUCT",
       "id": "6",
-      "image": "/images/products/product-placeholder.svg",
+      "image": "images/products/product-placeholder.svg",
       "description": "Demo copy: an expressive jasmine attar presented in a compact bottle for easy carrying. Replace this text with the real product details before launch."
     },
     {
@@ -81,7 +81,7 @@
       "subtitle": "A soft rose and jasmine blend",
       "tag": "SAMPLE PRODUCT",
       "id": "2",
-      "image": "/images/products/product-placeholder.svg",
+      "image": "images/products/product-placeholder.svg",
       "description": "Demo copy: a graceful floral scent with fresh rose petals and creamy jasmine. Replace this text with the real scent description before launch."
     },
     {
@@ -109,7 +109,7 @@
       "subtitle": "Bright citrus for everyday wear",
       "tag": "SAMPLE PRODUCT",
       "id": "3",
-      "image": "/images/products/product-placeholder.svg",
+      "image": "images/products/product-placeholder.svg",
       "description": "Demo copy: sparkling citrus and green notes make a light, easy fragrance for warm days. Replace this text with the real scent description before launch."
     },
     {
@@ -137,7 +137,7 @@
       "subtitle": "Dry woods with a crisp opening",
       "tag": "SAMPLE PRODUCT",
       "id": "4",
-      "image": "/images/products/product-placeholder.svg",
+      "image": "images/products/product-placeholder.svg",
       "description": "Demo copy: crisp spices settle into dry cedar and earthy vetiver for a clean woody profile. Replace this text with the real scent description before launch."
     },
     {
@@ -165,7 +165,7 @@
       "subtitle": "Cosy vanilla warmed by amber",
       "tag": "SAMPLE PRODUCT",
       "id": "5",
-      "image": "/images/products/product-placeholder.svg",
+      "image": "images/products/product-placeholder.svg",
       "description": "Demo copy: smooth vanilla and warm amber create a soft, comforting scent for cooler evenings. Replace this text with the real scent description before launch."
     }
   ]

@@ -6,7 +6,7 @@ backend:
 local_backend: true
 
 media_folder: "images/products"
-public_folder: "/images/products"
+public_folder: "images/products"
 
 collections:
   - name: "catalog"

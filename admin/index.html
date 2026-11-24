@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Shop Admin — Your Perfume House</title>
 <meta name="robots" content="noindex,nofollow">
-<link href="/admin/config.yml" type="text/yaml" rel="cms-config-url">
+<link href="./config.yml" type="text/yaml" rel="cms-config-url">
 <script>
 const isLocalAdmin = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
 if (isLocalAdmin) {
-  document.querySelector('link[rel="cms-config-url"]').href = "/admin/config.local.yml";
+  document.querySelector('link[rel="cms-config-url"]').href = "./config.local.yml";
   const autoLoginObserver = new MutationObserver(() => {
     const loginButton = [...document.querySelectorAll("button")].find(
       button => button.textContent.trim().toLowerCase() === "login"

@@ -2,15 +2,15 @@
 
 This folder is the site root. The static storefront reads `products.json` and `shop.json`. The admin at `/admin/` uses Decap CMS, and uploaded product photos are stored in `images/products/`.
 
-## Deploy
+## Deploy to GitHub Pages
 
-1. Create an empty GitHub repository and push the contents of this folder to its `main` branch. This folder itself is the deploy root.
-2. Import that repository into Netlify and deploy the repository root. Netlify serves the storefront at its free `netlify.app` address; a custom domain is optional.
-3. Create a Decap Turbo account, connect GitHub, install the Decap Turbo GitHub App for this repository, and create a site for the repository and `main` branch. Set the CMS config path to `admin/config.yml` and the admin URL to the deployed site's `/admin/` URL.
-4. Copy the Site ID shown by Decap Turbo into `turbo_site_id` in `admin/config.yml`, commit and push that change.
-5. Open `/admin/`, sign in, set the shop WhatsApp number, then manage products and photos. CMS saves become Git commits; Netlify publishes the updated site.
+1. Push this folder's contents to the root of the `main` branch in the `girish-cn/perfume-shop` repository.
+2. In GitHub, open **Settings → Pages** and publish from the `main` branch and `/ (root)`.
+3. In Decap Turbo, connect GitHub, install the Decap Turbo GitHub App for this repository, and create a site for `girish-cn/perfume-shop` on `main`. Set the CMS config path to `admin/config.yml` and add this exact admin interface URL: `https://girish-cn.github.io/perfume-shop/admin/`.
+4. Copy the Site ID shown by Decap Turbo into `turbo_site_id` in `admin/config.yml`, then commit and push the change.
+5. Open `https://girish-cn.github.io/perfume-shop/admin/` and sign in. Set the shop WhatsApp number, then manage products and photos. CMS saves become Git commits; GitHub Pages republishes the site.
 
-Decap Turbo's Free plan includes one site and one editor seat. Netlify's Free hosting plan has a monthly usage allowance. The live admin uses Decap Turbo's authenticated GitHub backend; replace the placeholder Site ID before the CMS can connect.
+The Site ID must be a real ID from Decap Turbo. The placeholder `YOUR_DECAP_TURBO_SITE_ID` will prevent the hosted admin from connecting. Keep the deployed admin behind the authenticated Turbo backend; the no-login editor is only for local development.
 
 ## Local preview and editing
 

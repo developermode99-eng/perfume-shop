@@ -3,11 +3,8 @@ backend:
   turbo_site_id: YOUR_DECAP_TURBO_SITE_ID
   branch: main
 
-# The local Decap proxy lets the CMS write to this folder during development.
-local_backend: true
-
 media_folder: "images/products"
-public_folder: "/images/products"
+public_folder: "images/products"
 
 collections:
   - name: "catalog"
