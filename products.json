@@ -1,0 +1,172 @@
+{
+  "products": [
+    {
+      "size": "50 ml",
+      "notes": {
+        "top": [
+          "Saffron",
+          "Pink pepper"
+        ],
+        "heart": [
+          "Rose",
+          "Leather"
+        ],
+        "base": [
+          "Oud",
+          "Amber"
+        ]
+      },
+      "audience": "Unisex",
+      "family": "Oud",
+      "price": 2490,
+      "name": "Sample Amber Oud",
+      "featured": true,
+      "stock": "In stock",
+      "subtitle": "Warm oud with a golden finish",
+      "tag": "SAMPLE PRODUCT",
+      "id": "1",
+      "image": "/images/products/cover.jpeg",
+      "description": "Demo copy: a warm, softly smoky oud fragrance with a gentle amber finish. Replace this text with the real scent description before launch."
+    },
+    {
+      "size": "10 ml",
+      "notes": {
+        "top": [
+          "Green notes",
+          "Citrus"
+        ],
+        "heart": [
+          "Jasmine sambac",
+          "White flowers"
+        ],
+        "base": [
+          "Soft woods",
+          "Musk"
+        ]
+      },
+      "audience": "Unisex",
+      "family": "Floral",
+      "price": 990,
+      "name": "Sample Jasmine Attar",
+      "featured": false,
+      "stock": "In stock",
+      "subtitle": "Concentrated jasmine in a travel size",
+      "tag": "SAMPLE PRODUCT",
+      "id": "6",
+      "image": "/images/products/product-placeholder.svg",
+      "description": "Demo copy: an expressive jasmine attar presented in a compact bottle for easy carrying. Replace this text with the real product details before launch."
+    },
+    {
+      "size": "50 ml",
+      "notes": {
+        "top": [
+          "Pear",
+          "Bergamot"
+        ],
+        "heart": [
+          "Rose",
+          "Jasmine"
+        ],
+        "base": [
+          "Musk",
+          "Sandalwood"
+        ]
+      },
+      "audience": "Women",
+      "family": "Floral",
+      "price": 1890,
+      "name": "Sample Rose Bloom",
+      "featured": false,
+      "stock": "In stock",
+      "subtitle": "A soft rose and jasmine blend",
+      "tag": "SAMPLE PRODUCT",
+      "id": "2",
+      "image": "/images/products/product-placeholder.svg",
+      "description": "Demo copy: a graceful floral scent with fresh rose petals and creamy jasmine. Replace this text with the real scent description before launch."
+    },
+    {
+      "size": "30 ml",
+      "notes": {
+        "top": [
+          "Lemon",
+          "Bergamot"
+        ],
+        "heart": [
+          "Neroli",
+          "Green tea"
+        ],
+        "base": [
+          "Cedar",
+          "White musk"
+        ]
+      },
+      "audience": "Unisex",
+      "family": "Fresh",
+      "price": 1290,
+      "name": "Sample Citrus Mist",
+      "featured": false,
+      "stock": "In stock",
+      "subtitle": "Bright citrus for everyday wear",
+      "tag": "SAMPLE PRODUCT",
+      "id": "3",
+      "image": "/images/products/product-placeholder.svg",
+      "description": "Demo copy: sparkling citrus and green notes make a light, easy fragrance for warm days. Replace this text with the real scent description before launch."
+    },
+    {
+      "size": "50 ml",
+      "notes": {
+        "top": [
+          "Cardamom",
+          "Grapefruit"
+        ],
+        "heart": [
+          "Vetiver",
+          "Clary sage"
+        ],
+        "base": [
+          "Cedarwood",
+          "Amber"
+        ]
+      },
+      "audience": "Men",
+      "family": "Woody",
+      "price": 2190,
+      "name": "Sample Cedar Trail",
+      "featured": false,
+      "stock": "In stock",
+      "subtitle": "Dry woods with a crisp opening",
+      "tag": "SAMPLE PRODUCT",
+      "id": "4",
+      "image": "/images/products/product-placeholder.svg",
+      "description": "Demo copy: crisp spices settle into dry cedar and earthy vetiver for a clean woody profile. Replace this text with the real scent description before launch."
+    },
+    {
+      "size": "50 ml",
+      "notes": {
+        "top": [
+          "Orange zest",
+          "Cinnamon"
+        ],
+        "heart": [
+          "Vanilla",
+          "Tonka bean"
+        ],
+        "base": [
+          "Amber",
+          "Benzoin"
+        ]
+      },
+      "audience": "Unisex",
+      "family": "Amber",
+      "price": 1990,
+      "name": "Sample Vanilla Amber",
+      "featured": false,
+      "stock": "In stock",
+      "subtitle": "Cosy vanilla warmed by amber",
+      "tag": "SAMPLE PRODUCT",
+      "id": "5",
+      "image": "/images/products/product-placeholder.svg",
+      "description": "Demo copy: smooth vanilla and warm amber create a soft, comforting scent for cooler evenings. Replace this text with the real scent description before launch."
+    }
+  ]
+}

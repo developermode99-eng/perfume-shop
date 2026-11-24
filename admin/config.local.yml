@@ -1,0 +1,56 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# The local Decap proxy lets the CMS write to this folder during development.
+local_backend: true
+
+media_folder: "images/products"
+public_folder: "/images/products"
+
+collections:
+  - name: "catalog"
+    label: "Shop"
+    files:
+      - name: "products"
+        label: "Products"
+        file: "products.json"
+        format: "json"
+        fields:
+          - label: "Products"
+            name: "products"
+            widget: "list"
+            label_singular: "product"
+            allow_add: true
+            allow_remove: true
+            allow_reorder: true
+            hint: "Start with an empty list. Use Add Products to enter the real fragrances and upload their photos."
+            summary: "{{fields.name}} — ₹{{fields.price}}"
+            fields:
+              - { label: "Product ID", name: "id", widget: "string", hint: "Unique ID, such as 7. Keep this unchanged when editing." }
+              - { label: "Product name", name: "name", widget: "string", hint: "Enter the real fragrance name shown on the product and website." }
+              - { label: "Family", name: "family", widget: "select", options: ["Amber", "Floral", "Fresh", "Oud", "Woody"], hint: "Choose the fragrance family." }
+              - { label: "Who it’s for", name: "audience", widget: "select", options: ["Women", "Men", "Unisex"], hint: "Choose the intended audience." }
+              - { label: "Size", name: "size", widget: "string", hint: "Enter the bottle size, for example 50 ml." }
+              - { label: "Price (₹)", name: "price", widget: "number", value_type: "int", min: 0, hint: "Enter the selling price in rupees." }
+              - { label: "Card label", name: "tag", widget: "string", required: false, hint: "For example: House favourite" }
+              - { label: "Short description", name: "subtitle", widget: "string", hint: "A short line describing the fragrance." }
+              - { label: "Description", name: "description", widget: "text", hint: "Write the full product description." }
+              - label: "Fragrance notes"
+                name: "notes"
+                widget: "object"
+                fields:
+                  - { label: "Top notes", name: "top", widget: "list", field: {label: "Note", name: "note", widget: "string"} }
+                  - { label: "Heart notes", name: "heart", widget: "list", field: {label: "Note", name: "note", widget: "string"} }
+                  - { label: "Base notes", name: "base", widget: "list", field: {label: "Note", name: "note", widget: "string"} }
+              - { label: "Product photo", name: "image", widget: "image", choose_url: false, hint: "Upload a real product photo. It will be saved in images/products." }
+              - { label: "Featured fragrance", name: "featured", widget: "boolean", default: false, required: false }
+              - { label: "Availability", name: "stock", widget: "select", options: ["In stock", "Sold out"] }
+      - name: "shop"
+        label: "Shop details"
+        file: "shop.json"
+        format: "json"
+        fields:
+          - { label: "Shop or brand name", name: "brand", widget: "string", hint: "Replace 'Your Perfume House' with the real business name." }
+          - { label: "Brand tagline", name: "tagline", widget: "string", hint: "Replace the placeholder tagline with your own." }
+          - { label: "WhatsApp number with country code", name: "whatsapp", widget: "string", hint: "Digits only. Example: 919876543210" }

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#17120f">
+  <meta name="description" content="Explore fragrances from Your Perfume House and order in one tap on WhatsApp.">
+  <title>Your Perfume House — Perfumes, made for you</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="index.html"><span>✦</span> <span data-brand>Your Perfume House</span></a><nav><a href="#collection">Collection</a><a href="#story">Our story</a></nav></header>
+  <main>
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-copy"><p class="eyebrow"><span data-brand>Your Perfume House</span> <span>·</span> PERFUMERY</p><h1 id="heroTitle">Small-batch<br>perfumes,<br>blended<br>by hand</h1><p class="hero-description">Add your story, signature scents and product details. Customers can explore the collection and order through WhatsApp.</p><a class="gold-button" href="#collection">Explore the collection <span>→</span></a><p class="house-count" id="houseCount">Your products will appear here</p></div>
+      <div class="hero-visual"><img src="images/products/product-placeholder.svg" alt="Product photo placeholder — upload your fragrance photo in Admin"><a id="featuredLink" class="featured-card" href="#collection"></a></div>
+    </section>
+    <div class="notes-marquee" aria-label="Fragrance notes"><div id="notesMarquee" class="marquee-track"></div></div>
+    <section class="collection section-shell" id="collection">
+      <div class="collection-title"><div><p class="eyebrow">THE COLLECTION</p><h2>Every bottle, blended in-house</h2></div><label class="search"><span>⌕</span><input type="search" id="search" placeholder="Search by name or note — try “rose”" aria-label="Search fragrances"></label></div>
+      <div class="family-filters" id="familyFilters" aria-label="Filter by family"></div>
+      <div class="catalog-controls"><div class="audience-filters" id="audienceFilters" aria-label="Filter by who it’s for"></div><label class="sort-wrap"><span class="sr-only">Sort products</span><select id="sort"><option value="featured">Featured first</option><option value="newest">Newest</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select></label></div>
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+    </section>
+    <section class="story section-shell" id="story"><div class="story-photo"><img src="images/products/product-placeholder.svg" alt="Add a photo that represents your perfume business"></div><div class="story-copy"><p class="eyebrow">OUR STORY</p><h2>Your story,<br>your signature</h2><p class="story-description">Replace this text with the story behind your perfume business, how your fragrances are made, and what makes them special.</p><div class="steps"><article><span>01</span><div><h3>Pick a scent</h3><p>Browse the collection and read the notes.</p></div></article><article><span>02</span><div><h3>Choose a quantity</h3><p>We total it up for you, no account needed.</p></div></article><article><span>03</span><div><h3>Order on WhatsApp</h3><p>Your order arrives as a ready-to-send message. Confirm delivery and payment there.</p></div></article></div></div></section>
+  </main>
+  <footer class="site-footer"><div><a class="footer-brand" href="index.html" data-brand>Your Perfume House</a><p data-tagline>Your fragrance story goes here.</p></div><p>© <span id="year"></span> <span data-brand>Your Perfume House</span>. Orders are confirmed personally over WhatsApp.</p></footer>
+  <script src="app.js"></script>
+</body>
+</html>

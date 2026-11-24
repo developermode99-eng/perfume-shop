@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shop Admin — Your Perfume House</title>
+<meta name="robots" content="noindex,nofollow">
+<link href="/admin/config.yml" type="text/yaml" rel="cms-config-url">
+<script>
+const isLocalAdmin = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+if (isLocalAdmin) {
+  document.querySelector('link[rel="cms-config-url"]').href = "/admin/config.local.yml";
+  const autoLoginObserver = new MutationObserver(() => {
+    const loginButton = [...document.querySelectorAll("button")].find(
+      button => button.textContent.trim().toLowerCase() === "login"
+    );
+    if (loginButton) {
+      autoLoginObserver.disconnect();
+      loginButton.click();
+    }
+  });
+  autoLoginObserver.observe(document.documentElement, { childList: true, subtree: true });
+  window.setTimeout(() => autoLoginObserver.disconnect(), 10000);
+}
+</script>
+</head>
+<body><script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script></body>
+</html>

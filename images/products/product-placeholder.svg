@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Product photo placeholder</title>
+  <desc id="desc">An illustrated perfume bottle with a reminder to add a product photo.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#30251d"/><stop offset="1" stop-color="#17120f"/></linearGradient>
+    <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#d7b476" stop-opacity=".72"/><stop offset="1" stop-color="#805631" stop-opacity=".55"/></linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <circle cx="450" cy="425" r="260" fill="#c6a06a" opacity=".06"/>
+  <g fill="none" stroke="#d4bb91" stroke-opacity=".75" stroke-width="5">
+    <path d="M390 230h120v120l70 75v350q0 50-50 50H370q-50 0-50-50V425l70-75z" fill="url(#glass)"/>
+    <path d="M405 230v-90h90v90M390 350h120M375 600h150"/>
+  </g>
+  <rect x="355" y="515" width="190" height="135" rx="8" fill="#17120f" fill-opacity=".55" stroke="#d4bb91" stroke-opacity=".5" stroke-width="2"/>
+  <text x="450" y="570" fill="#eee6d7" text-anchor="middle" font-family="Georgia,serif" font-size="25">Your fragrance</text>
+  <text x="450" y="610" fill="#c6a06a" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" letter-spacing="4">ADD PRODUCT PHOTO</text>
+  <text x="450" y="985" fill="#d4bb91" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" letter-spacing="5">PRODUCT IMAGE PLACEHOLDER</text>
+</svg>
