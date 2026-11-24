@@ -1,34 +1,6 @@
 {
   "products": [
     {
-      "size": "50 ml",
-      "notes": {
-        "top": [
-          "Saffron",
-          "Pink pepper"
-        ],
-        "heart": [
-          "Rose",
-          "Leather"
-        ],
-        "base": [
-          "Oud",
-          "Amber"
-        ]
-      },
-      "audience": "Unisex",
-      "family": "Oud",
-      "price": 2490,
-      "name": "Sample Amber Oud",
-      "featured": false,
-      "stock": "In stock",
-      "subtitle": "Warm oud with a golden finish",
-      "tag": "SAMPLE PRODUCT",
-      "id": "1",
-      "image": "images/products/cover.jpeg",
-      "description": "Demo copy: a warm, softly smoky oud fragrance with a gentle amber finish. Replace this text with the real scent description before launch."
-    },
-    {
       "size": "10 ml",
       "notes": {
         "top": [
