@@ -167,6 +167,19 @@
       "id": "5",
       "image": "images/products/product-placeholder.svg",
       "description": "Demo copy: smooth vanilla and warm amber create a soft, comforting scent for cooler evenings. Replace this text with the real scent description before launch."
+    },
+    {
+      "size": "100",
+      "audience": "Men",
+      "family": "Amber",
+      "price": 965,
+      "name": "Test",
+      "featured": true,
+      "stock": "In stock",
+      "subtitle": "test",
+      "id": "123",
+      "image": "images/products/product-placeholder.svg",
+      "description": "tetsfljhl jhbubu bjk tetsfljhl jhbubu bjktetsfljhl jhbubu bjktetsfljhl jhbubu bjktetsfljhl jhbubu bjktetsfljhl jhbubu bjktetsfljhl jhbubu bjktetsfljhl jhbubu bjktetsfljhl jhbubu bjktetsfljhl jhbubu bjktetsfljhl jhbubu bjk"
     }
   ]
 }
